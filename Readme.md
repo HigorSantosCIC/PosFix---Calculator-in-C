@@ -1,19 +1,21 @@
-Gerar novamente os objetos: gcc -c funcao.c calculadora.c intopos.c -std=c99 
+## Gerar novamente os objetos: gcc -c funcao.c calculadora.c intopos.c -std=c99 
 
-Compilar os arquivos: gcc -o main main.c funcao.o calculadora.o intopos.o -lm -std=c99 -Wall
+## Compilar os arquivos: gcc -o main main.c funcao.o calculadora.o intopos.o -lm -std=c99 -Wall
 
 
 
-Executa: ./main
+## Executar: ./main
 
 
 
 ///////////////////////////////////////////////////////////////////////////////
-Compilação:
+## Compilação:
 
- Abra o terminal para este diretorio.
+- Abra o terminal para este diretorio.
+- 
 Os arquivos objetos deverão ser gerados da seguinte maneira:
-Execute gcc -c funcao.c calculadora.c intopos.c -std=c99, o arquivo main.c deve ser compilado após os arquivos funcao.c, calculadora.c e  intopos.c já terem sido compilados.
+ ```gcc -c funcao.c calculadora.c intopos.c -std=c99```, 
+O arquivo main.c deve ser compilado após os arquivos funcao.c, calculadora.c e  intopos.c já terem sido compilados.
 
 
 Execução:
