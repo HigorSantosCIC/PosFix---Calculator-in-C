@@ -14,7 +14,7 @@
 - Abra o terminal para este diretorio.
 - 
 Os arquivos objetos deverão ser gerados da seguinte maneira:
- ```gcc -c funcao.c calculadora.c intopos.c -std=c99```, 
+ # gcc -c funcao.c calculadora.c intopos.c -std=c99, 
 O arquivo main.c deve ser compilado após os arquivos funcao.c, calculadora.c e  intopos.c já terem sido compilados.
 
 
